@@ -1,0 +1,500 @@
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q1 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q2 --no-graphics
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python autograder.py -q q2 --no-graphics
+python autograder.py -q q3 --no-graphics
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q3 --no-graphics
+python autograder.py -q q2 --no-graphics
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python autograder.py -q q4
+python autograder.py -q q4
+python autograder.py -q q4
+python autograder.py -q q4
+python autograder.py -q q4
+python autograder.py -q q4
+python autograder.py -q q4
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python autograder.py -q q4
+python autograder.py -q q4 --no-graphics
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5
+python autograder.py -q q5
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5 --no-graphics
+python autograder.py
+python autograder.py -q q5 --no-graphics
+python autograder.py -q q5
+python autograder.py -q q1
+python autograder.py -q q1
+python autograder.py -q q1
+python autograder.py
+python autograder.py -q q4
+python autograder.py -q q4 
+python autograder.py -q q4 --no-graphics
+python autograder.py
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python autograder.py -q q4 --no-graphics
+python autograder.py -q q4 --no-graphics
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python autograder.py
+python autograder.py
+python autograder.py
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+cd Downloads/
+cd ..
+cd Documents/
+ls
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+pip3 install matplotlib
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+sudo port install pi
+sudo port install pip
+python3 -m pip install matplotlib
+python2 -m pip install matplotlib
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python -m tabnanny NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+s
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+python NN_assignment1.py
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+gradle -q check
+build.gradle
+println project.name
+gradle -q hello
+gradle -q hello
+gradle build
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+/Users/bhuvanasridhara/anaconda3/bin/jupyter_mac.command ; exit;
+ls
+cd projects/
+ls
+cd bhuvana_sridhara_hw1/
+ls
+cd ..
+git status
+mkdir bhuvana_sridhara_hw2
+ls
+cd bhuvana_sridhara_hw2
+git status
+git clone https://bsridh5@bitbucket.org/bsridh5/bhuvana_sridhara_hw2.git
+ls
+cd bhuvana_sridhara_hw2/
+git status
+ls
+ls
+cd ..

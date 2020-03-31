@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>com.uic.bhuvana_sridhara_hw2</id>
+    <name>Design Pattern Generator</name>
+    <vendor email="bsridh5@uic.edu" url="http://www.bhuvana.com">Bhuvana_UIC</vendor>
+
+    <description><![CDATA[
+    Generates design patterns based on user input.<br>
+    <em>END</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+<!--    <depends>com.intellij.modules.platform</depends>-->
+
+    <actions>
+        <group id = "DesignPattern" text = "Design Pattern Generator" description="Generates code for design patterns">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+        </group>
+
+        <group id = "SelectPattern" text = "Start" description="Getting user inputs">
+            <add-to-group group-id="DesignPattern" anchor="last"/>
+            <action id="com.bhuvana.designpatterndemo.GetInputAction" class="com.bhuvana.designpatterndemo.GetInputAction"
+                    text="Start" description="Get User Input"/>
+        </group>
+
+    </actions>
+
+
+</idea-plugin>

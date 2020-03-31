@@ -1,0 +1,165 @@
+Homework 2
+
+###########
+Description: PLUGIN - object-oriented design and implementation of a Design Pattern Code Generator
+Author: Bhuvana Sridhara
+Email: bsridh5@uic.edu
+UIN: 661401311
+#############
+Implementation:
+
+HW1 is included as a module in the package bhuvana_sridhara_hw1
+'Design Pattern Generator' menu is added to tool bar when project is run in runIde mode.
+GetInputAction extends AnAction and it is the first action system class called.
+It takes all the user input through a series of popup dialogues.
+Execution flow is shown in another document 'One sample execution flow.pdf'
+Rest of the implementation remains the same as in homework 1
+
+
+Main class is Executor.java, which has main() function defined in it.
+
+This Design Pattern Code Generator uses Factory method, Builder and Facade design patterns for its implementation.
+
+From there, we call getUserInputs of GetUserInputs, which uses a scanner to get input from user about what pattern needs to be implemented,
+how many classes implement this parent class etc and other details.
+
+Then, we invoke getDesignPattern of getCodeFactory, which is a factory method and it returns an instance of a concrete class,
+based on user input. For example, if selected pattern in abstract factory, then the getDesignPattern returns an instance of
+AbstractFactory class.
+
+Then through designPattern object, we invoke getCode() function which is an abstract function defined in a builder class,
+DesignPatternBuilder. Each of the concrete classes extend this and in each class, all the components are built step by step.
+We have classes like ConcreteClassesBuilder, MainInterfaceBuilder which return a TypeSpec object (JavaPoet) once the
+class/interface is built.
+
+Once the class/interface is built, we invoke write() function of WriteToJavaFiles which then generate multiple java files and stores them
+in the path provided by Config.conf file.
+####################
+Design patterns used:
+Facade design pattern:
+Used as a helper for getting inputs from the user.
+Link-> GetUserInputs.java utilizes the interface InputHelperFacade which has methods like setSelectedPattern() etc
+
+Factory method:
+Using a Factory - GetCodeFactory to get object of class (DesignPatternBuilder)- by passing an information such as selectedPattern
+Link-> getCodeFactory() inside GetCodeFactory.java
+
+Builder:
+Using Builder class to build the complex object DesignPattern step by step.
+DesignPatternBuilder contains multiple abstract methods like buildMainInterface(), buildConcreteClasses() etc, which can be overridden
+in the extending classes (AbstractFactory, Builder, FactoryMethod etc)
+Link-> DesignPatternBuilder.java. Extending classes -> AbstractFactory.java etc
+
+#################
+Facade is advantageous because it helps the client applications to easily interact with the system.
+
+Factory method is advantageous because we are using the factory to act as a knowledge center for producing needed objects.
+
+Builder pattern is advantageous because it provides clear separation between the construction and representation of an object.
+It also provides better control over the construction process.
+It supports to change the internal representation of objects.
+
+The current code could definitely made better, there is a lot of duplication while building the classes/interfaces.
+This could probably be solved by incorporating one more design pattern, such as a Template.
+
+##############
+Sample execution of Abstract Factory Design Pattern:
+
+Design patterns available:
+1: AbstractFactory
+2: Builder
+3: FactoryMethod
+4: Facade
+5: ChainOfResponsibility
+6: Mediator
+7: Visitor
+8: TemplateMethod
+9: Prototype
+10: Adapter
+11: Bridge
+12: Composite
+13: Decorator
+14: Flyweight
+15: Proxy
+16: Command
+17: Interpreter
+18: Iterator
+19: Memento
+20: Observer
+21: State
+22: Strategy
+Choose your pattern! (1-22)
+1
+Implementing AbstractFactory...
+Enter name for main AbstractFactory class/interface
+Car
+Enter number of concrete classes implementing AbstractFactory class/interface Car
+2
+Enter name for 2 class(es) implementing Car
+Class 1:
+MicroCar
+Class 2:
+LuxuryCar
+Enter number of abstract methods in Car class
+1
+Enter name of abstract method in Car class
+Method 1:
+buildCar
+Enter number of factory classes you need
+2
+Enter name for 2 Car factory classes
+Factory class1:
+IndiaFactory
+Factory class2:
+USAFactory
+
+Process finished with exit code 0
+At the end of the run, the following files are generated in the path specified by Config.conf file:
+(bhuvana_sridhara_hw1/src/generated/java)
+
+Car.java:
+public interface Car {
+   void buildCar();
+}
+
+CarFactory.java:
+public class CarFactory {
+   public Car getCar() {
+      // You can use this method to get object of type Car. Example:
+      return IndiaFactory.getCar();
+   }
+}
+
+IndiaFactory.java:
+public class IndiaFactory {
+   public Car getCar() {
+      // You can use this method to get object of type Car. Example:
+      return new MicroCar();
+   }
+}
+
+USAFactory.java:
+public class USAFactory {
+   public Car getCar() {
+      // You can use this method to get object of type Car. Example:
+      return new MicroCar();
+   }
+}
+
+MicroCar.java:
+import java.lang.Override;
+
+public class MicroCar implements Car {
+   @Override
+   public void buildCar() {
+   }
+}
+
+LuxuryCar.java:
+import java.lang.Override;
+
+public class LuxuryCar implements Car {
+   @Override
+   public void buildCar() {
+   }
+}
