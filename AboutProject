@@ -1,7 +1,8 @@
-Homework 2
+Homework 3
 
 ###########
-Description: PLUGIN - object-oriented design and implementation of a Design Pattern Code Generator
+Description: object-oriented design and implementation of the name clashing functionality 
+in the IntelliJ plugin with the design pattern code generator from homeworks 1 and 2.
 Author: Bhuvana Sridhara
 Email: bsridh5@uic.edu
 UIN: 661401311
@@ -9,12 +10,11 @@ UIN: 661401311
 Implementation:
 
 HW1 is included as a module in the package bhuvana_sridhara_hw1
-'Design Pattern Generator' menu is added to tool bar when project is run in runIde mode.
-GetInputAction extends AnAction and it is the first action system class called.
-It takes all the user input through a series of popup dialogues.
-Execution flow is shown in another document 'One sample execution flow.pdf'
-Rest of the implementation remains the same as in homework 1
-
+My design for homework 2 was inadequate, so I had to change functionality in hw2 existing files-GetUserInputAction.
+Have added checks to prevent creation of duplicate files in same package.
+If it is a different package, a file with same name is allowed.
+This execution flow is shown in two demonstration videos-'same package clash.mov' and 'different package allowed.mov'
+Rest of the implementation remains the same as in homework 2
 
 Main class is Executor.java, which has main() function defined in it.
 
