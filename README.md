@@ -1,8 +1,13 @@
-# Homework 3
-### Description: object-oriented design and implementation of the name clashing functionality in the IntelliJ plugin with the design pattern code generator from homeworks 1 and 2.
-### Grade: 8% + bonus up to 3% for using a Java parser (it can be Eclipse AST parser or the module [jdk.compiler](https://docs.oracle.com/en/java/javase/13/docs/api/jdk.compiler/module-summary.html)).
-#### You can obtain this Git repo using the command git clone git clone git@bitbucket.org:cs474_spring2020/homework3.git.
+### Instructions to install and run program:
 
+### Navigate to directory: bhuvana_sridhara_hw3 inside this repo
+
+### Command: ./gradlew build ### ./gradlew run
+
+### RunIde mode - > new project and select 'Design Pattern Generator' menu item. Follow the prompts displayed.
+
+### After the program runs, the generated files are stored in the new Project. 
+# Homework 3 ### Description: Description: object-oriented design and implementation of the name clashing functionality in the IntelliJ plugin with the design pattern code generator from homeworks 1 and 2.
 ## Preliminaries
 As part of the previous homework assignments you gained experience with creating and managing your Git repositories, you have learned many design patterns, you created your model and the object-oriented design of a design pattern code generator, you learned to create JUnit or Cucumber or FlatSpec tests, you created your SBT or Gradle build scripts, and you completed your first IntelliJ plugin! Congratulations!
 
