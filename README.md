@@ -7,7 +7,7 @@
 ### RunIde mode - > new project and select 'Design Pattern Generator' menu item. Follow the prompts displayed.
 
 ### After the program runs, the generated files are stored in the new Project. 
-# Homework 3 ### Description: Description: object-oriented design and implementation of the name clashing functionality in the IntelliJ plugin with the design pattern code generator from homeworks 1 and 2.
+# Description: object-oriented design and implementation of the name clashing functionality in the IntelliJ plugin with the design pattern code generator from homeworks 1 and 2.
 ## Preliminaries
 As part of the previous homework assignments you gained experience with creating and managing your Git repositories, you have learned many design patterns, you created your model and the object-oriented design of a design pattern code generator, you learned to create JUnit or Cucumber or FlatSpec tests, you created your SBT or Gradle build scripts, and you completed your first IntelliJ plugin! Congratulations!
 
